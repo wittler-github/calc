@@ -19,5 +19,5 @@ if __name__ == '__main__':
     elif command == 'max':
         print(max(nums))
     else:
-        usage = "calc.py [add|multiply|min] NUM1 [NUM2 [NUM3 [...]]]"
+        usage = "calc.py [add|multiply|min|max] NUM1 [NUM2 [NUM3 [...]]]"
         print(usage)
