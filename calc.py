@@ -16,3 +16,5 @@ if __name__ == '__main__':
         print(add_all(nums))
     elif command == 'multiply':
         print(multiply_all(nums))
+    elif command == 'min':
+        print(min(nums))
